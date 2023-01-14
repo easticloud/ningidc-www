@@ -4,9 +4,8 @@
         <!-- 公共头部 -->
         <common-header></common-header>
 
-        <!-- test -->
         <client-only>
-            <index-test></index-test>
+            <index-carousel></index-carousel>
         </client-only>
 
         <!-- 公共底部 -->

@@ -1,0 +1,60 @@
+{
+    "header": [
+        { "name": "首页", "link": "/" },
+        { "name": "服务器租用", "link": "http://www.98dns.com/server.asp" },
+        { "name": "服务器托管", "link": "http://www.98dns.com/tuoguan.asp" },
+        { "name": "机柜大带宽", "link": "http://www.98dns.com/server.asp" },
+        { "name": "企业应用", "link": "http://www.025108.com/" },
+        { "name": "关于我们", "link": "/about" }
+    ],
+    "carousel": [
+        {
+            "title": "爆款云服务器推荐",
+            "desc": "适用中小企业官网、网上商城、综合性网站",
+            "link": "/about",
+            "img": "index/01.png"
+        }
+    ],
+    "icon": ["7*24小时服务", "免费备案", "无忧退订", "全周期专业服务"],
+    "footer": {
+        "contact": {
+            "title": "联系我们",
+            "link": "/about",
+            "desc": ["咨询热线：", "025-84850113", "邮箱：x15335159293@189.cn", "商务合作：15335159293（黄经理）"]
+        },
+        "rental": {
+            "title": "服务器租用",
+            "link": "http://www.98dns.com/server.asp",
+            "list": [
+                { "title": "南京服务器租用", "link": "http://www.98dns.com/server.asp" },
+                { "title": "香港服务器租用", "link": "http://www.98dns.com/server.asp" },
+                { "title": "云服务器租用", "link": "http://www.98dns.com/server.asp" },
+                { "title": "VPS主机", "link": "http://www.98dns.com/server.asp" }
+            ]
+        },
+        "escrow": {
+            "title": "服务器托管",
+            "link": "http://www.98dns.com/tuoguan.asp",
+            "list": [
+                { "title": "苜蓿园机房托管", "link": "http://www.98dns.com/tuoguan.asp" },
+                { "title": "泰山新村机房托管", "link": "http://www.98dns.com/tuoguan.asp" },
+                { "title": "烽火机房托管", "link": "http://www.98dns.com/tuoguan.asp" }
+            ]
+        },
+        "server": {
+            "title": "机柜带宽",
+            "link": "http://www.98dns.com/server.asp",
+            "list": [
+                { "title": "电信机柜", "link": "http://www.98dns.com/server.asp" },
+                { "title": "移动机柜", "link": "http://www.98dns.com/server.asp" },
+                { "title": "电信带宽", "link": "http://www.98dns.com/server.asp" },
+                { "title": "移动带宽", "link": "http://www.98dns.com/server.asp" }
+            ]
+        },
+        "ningidc": {
+            "title": "关注四重奏",
+            "label": "更多资讯关注微信公众号",
+            "more": ["随时了解最新资讯", "关注三体公众号"]
+        }
+    }
+}

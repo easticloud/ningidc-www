@@ -1,0 +1,170 @@
+.c-footer {
+    background-color: #f5f5f6;
+    .icons {
+        .size(100%,100px);
+        color: #fff;
+        background: url("../../../static/images/index/bg.png") center top;
+        .wp {
+            .flex;
+            .h(100%);
+            justify-content: space-between;
+            align-items: center;
+            gap: 50px;
+        }
+        .item {
+            .flex;
+            .fz(21px,27px);
+            gap: 15px;
+            align-items: center;
+        }
+    }
+    .content {
+        .h(320px);
+        box-sizing: border-box;
+        .box {
+            .flex;
+            justify-content: space-between;
+            padding: 70px 0;
+        }
+        .item {
+            .flex;
+            flex-direction: column;
+            width: 150px;
+            .u-item {
+                .flex;
+                flex-direction: column;
+            }
+            &.first {
+                flex-shrink: 0;
+                width: 375px;
+            }
+            &.five {
+                .more {
+                    .none;
+                    .fz(12px,20px);
+                    color: #888;
+                    flex-direction: column;
+                }
+            }
+            .title {
+                .fz(16px,21px);
+                .mb(18px);
+                color: #222;
+            }
+            .title + .title {
+                .mt(30px);
+            }
+            .desc {
+                .flex;
+                .fz(16px,35px);
+                .color(#888);
+                align-items: center;
+                gap: 7px;
+                .icon {
+                    .size(20px);
+                }
+                &.desc-2 {
+                    .fz(24px,35px);
+                    .bold;
+                    .color(#666);
+                }
+            }
+            .label {
+                .fz(12px,35px);
+                .color(#888);
+            }
+            .code {
+                .size(97px);
+            }
+        }
+    }
+    .copyright {
+        .size(100%,88px);
+        .flex;
+        .fz(16px,22px);
+        color: #666;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid #e3e4e6;
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width: @phone) {
+    .c-footer {
+        .icons {
+            .h(auto);
+            padding: 20px 0;
+            .wp {
+                flex-wrap: wrap;
+                gap: 20px;
+            }
+            .item {
+                width: 45%;
+                .fz(14px,2);
+                .icon {
+                    .size(28px);
+                }
+            }
+        }
+        .content {
+            .h(auto);
+            .box {
+                padding: 35px 0 0 0;
+                flex-direction: column;
+                justify-content: flex-start;
+                gap: 15px;
+                .item {
+                    .w(100%);
+                    .pb(15px);
+                    border-bottom: 1px solid #e6e6e6;
+                    .u-item {
+                        .flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                    }
+
+                    &.five {
+                        flex-direction: row;
+                        align-items: center;
+                        gap: 10px;
+                        .title,
+                        .label {
+                            .none;
+                        }
+                        .code {
+                            .size(60px);
+                        }
+                        .more {
+                            .flex;
+                        }
+                    }
+                    .title {
+                        .fz(12px,16px);
+                        .mb(10px);
+                    }
+                    .title + .title {
+                        .mt(0px);
+                    }
+                    .desc {
+                        .fz(12px,16px);
+                        .icon {
+                            .size(15px);
+                        }
+                        &.desc-2 {
+                            .fz(16px,27px);
+                        }
+                    }
+                }
+            }
+        }
+        .copyright {
+            .fz(10px,20px);
+            color: #b2b2b2;
+            border-top: 0;
+            flex-direction: column;
+            .line {
+                .none;
+            }
+        }
+    }
+}
