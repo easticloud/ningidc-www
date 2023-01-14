@@ -13,6 +13,10 @@
     .m-content {
         .flex;
         justify-content: space-between;
+        &.m-content-4 {
+            flex-wrap: wrap;
+            justify-content: flex-start;
+        }
     }
 }
 
@@ -30,7 +34,15 @@
         .pb(30px);
         .m-content {
             flex-direction: column;
-            gap:20px;
+            align-items: center;
+            gap: 20px;
+            &.m-content-4 {
+                gap: 0;
+            }
         }
+    }
+    .m-item-escrow {
+        flex-direction: column;
+        align-items: center;
     }
 }

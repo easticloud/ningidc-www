@@ -7,16 +7,14 @@
             <index-carousel></index-carousel>
             <div class="m-column" v-for="(item, i) in list" :key="i">
                 <page-title :data="{ title: item.title, desc: item.desc }"></page-title>
-                <div class="m-content wp">
+                <div class="m-content wp" :class="`m-content-${i}`" >
                     <template v-if="item.list">
-                        <div class="m-content wp">
-                            <component
-                                :is="showModal(item.key)"
-                                v-for="(_item, key) in item.list"
-                                :key="key"
-                                :data="_item"
-                            ></component>
-                        </div>
+                        <component
+                            :is="showModal(item.key)"
+                            v-for="(_item, key) in item.list"
+                            :key="key"
+                            :data="_item"
+                        ></component>
                     </template>
                     <template v-else>
                         <component :is="showModal(item.key)" :data="item.info"></component>
