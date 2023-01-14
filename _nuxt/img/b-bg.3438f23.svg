@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="102px" height="102px" viewBox="0 0 102 102" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon背景</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#CF3812" offset="0%"></stop>
+            <stop stop-color="#E96E09" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#CD3413" offset="0%"></stop>
+            <stop stop-color="#EF7A07" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-6.7%" y="-6.7%" width="113.4%" height="113.4%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="2" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-3.7%" y="-3.7%" width="107.4%" height="107.4%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="1" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="四重奏官网-首页" transform="translate(-1391.000000, -2699.000000)">
+            <g id="网站备案" transform="translate(0.000000, 2494.000000)">
+                <g id="编组-15" transform="translate(360.500000, 207.000000)">
+                    <g id="icon背景" transform="translate(1032.500000, 0.000000)">
+                        <circle id="椭圆形备份-3" stroke="url(#linearGradient-1)" opacity="0.5" transform="translate(49.000000, 49.000000) scale(1, -1) translate(-49.000000, -49.000000) " cx="49" cy="49" r="48.5"></circle>
+                        <circle id="椭圆形备份-2" fill-opacity="0.5" fill="url(#linearGradient-2)" filter="url(#filter-3)" cx="49" cy="49" r="44.6764706"></circle>
+                        <circle id="椭圆形备份" fill-opacity="0.5" fill="url(#linearGradient-2)" filter="url(#filter-4)" cx="49" cy="49" r="40.3529412"></circle>
+                        <circle id="椭圆形" fill="url(#linearGradient-2)" cx="49" cy="49" r="36.0294118"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
