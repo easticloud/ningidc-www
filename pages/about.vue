@@ -8,7 +8,6 @@
             <index-carousel></index-carousel>
             <!-- tabs -->
             <page-tabs :data="tabs" :active="active" @update="update"></page-tabs>
-
             <div v-for="(item, key) in about" :key="key" :id="key">
                 <page-title :data="{ title: item.title }"></page-title>
                 <template v-if="item.list">

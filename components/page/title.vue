@@ -2,7 +2,7 @@
     <div class="m-item-title">
         <div class="wp">
             <span class="title">{{ data.title }}</span>
-            <span class="desc" v-if="data.desc">{{ data.desc }}</span>
+            <span class="desc" v-if="data.desc" v-html="data.desc"></span>
         </div>
     </div>
 </template>
