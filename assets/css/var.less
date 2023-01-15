@@ -1,5 +1,6 @@
 @img: "../../../static/images/";
 @phone: 750px;
+@ipad: 1000px;
 
 .wp {
     .auto(x);
@@ -15,5 +16,15 @@
         max-width: 100%;
         padding: 0 20px;
         box-sizing: border-box;
+    }
+}
+@media screen and (max-width: @ipad) {
+    .m-column .wp {
+        .clip;
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+    .c-header .links {
+        gap: 5px;
     }
 }

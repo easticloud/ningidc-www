@@ -151,4 +151,12 @@ export default {
         }
     }
 }
+@media screen and(max-width:@ipad) {
+    .m-item-escrow {
+        .h(auto);
+        .m-item{
+            .h(400px);
+        }
+    }
+}
 </style>

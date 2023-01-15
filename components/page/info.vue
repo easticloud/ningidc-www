@@ -45,7 +45,7 @@ export default {
         }
     }
 }
-@media screen and (max-width: @phone) {
+@media screen and (max-width: @ipad) {
     .m-item-info {
         flex-direction: column;
         .h(auto);

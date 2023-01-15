@@ -29,15 +29,14 @@ export default {
         .size(100%,98px);
         align-items: center;
         position: relative;
-        .line {
-            .size(100%,0);
-            border: 1px dashed #e3e4e6;
-        }
+        background: url(../../static/images/index/line.svg) right center no-repeat;
         .icons {
             .pa;
             .lt(0);
             .full;
             .flex;
+            padding: 0 50px;
+            box-sizing: border-box;
             justify-content: space-between;
             .item {
                 .flex;
@@ -72,22 +71,21 @@ export default {
 }
 @media screen and (max-width: @phone) {
     .m-item-file {
-        gap:30px;
+        gap: 30px;
         .m-icons {
             .h(auto);
-            .line {
-                .none;
-            }
+            background: none;
+
             .icons {
                 position: static;
                 flex-direction: column;
-                gap:10px;
+                gap: 10px;
                 .pl(30px);
                 .item {
                     .size(50px);
                     background-size: contain;
                     position: relative;
-                    .icon{
+                    .icon {
                         .w(24px);
                     }
                     .title {
@@ -98,6 +96,18 @@ export default {
                         .color(#666);
                         .x(left);
                     }
+                }
+                &::before {
+                    content: "";
+                    .pa;
+                    .db;
+                    .size(100%,16px);
+                    .lt(0,51%);
+                    margin-left: calc(-50% + 56px);
+                    transform: rotate(90deg);
+                    background-image: url(../../static/images/index/line.svg);
+                    background-repeat: no-repeat;
+                    background-position: right 0 center;
                 }
             }
         }
