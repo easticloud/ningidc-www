@@ -28,7 +28,7 @@
                 "config": [
                     { "label": "CPU", "value": "2核" },
                     { "label": "内存", "value": "8G" },
-                    { "label": "宽带", "value": "百兆共享" },
+                    { "label": "带宽", "value": "百兆共享" },
                     { "label": "硬盘", "value": "146G*2" }
                 ]
             },
@@ -40,7 +40,7 @@
                 "config": [
                     { "label": "CPU", "value": "2核" },
                     { "label": "内存", "value": "4G" },
-                    { "label": "宽带", "value": "5M" },
+                    { "label": "带宽", "value": "5M" },
                     { "label": "硬盘", "value": "200G" }
                 ]
             },
@@ -52,7 +52,7 @@
                 "config": [
                     { "label": "CPU", "value": "2核" },
                     { "label": "内存", "value": "4G" },
-                    { "label": "宽带", "value": "5M" },
+                    { "label": "带宽", "value": "5M" },
                     { "label": "硬盘", "value": "200G" }
                 ]
             },
@@ -64,7 +64,7 @@
                 "config": [
                     { "label": "CPU", "value": "2核" },
                     { "label": "内存", "value": "2048M" },
-                    { "label": "宽带", "value": "4M" },
+                    { "label": "带宽", "value": "4M" },
                     { "label": "硬盘", "value": "100G" }
                 ]
             }
@@ -208,11 +208,11 @@
                 "desc": ["机柜：4500/月", "电源：12A"]
             },
             {
-                "title": "电信宽带",
+                "title": "电信带宽",
                 "desc": ["机柜：30/M/月", "电源：12A"]
             },
             {
-                "title": "移动宽带",
+                "title": "移动带宽",
                 "desc": ["机柜：18/M/月", "电源：12A"]
             }
         ]
