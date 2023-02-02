@@ -36,9 +36,9 @@
                 </div>
             </div>
         </div>
-        <div class="copyright">
+        <a href="https://beian.miit.gov.cn" target="_blank" class="copyright">
             <span>© 2023 南京四重奏科贸有限公司</span><span class="line"> 丨 </span><span>苏ICP备15035679号</span>
-        </div>
+        </a>
     </div>
 </template>
 
